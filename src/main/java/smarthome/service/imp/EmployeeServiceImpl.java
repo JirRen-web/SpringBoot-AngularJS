@@ -10,7 +10,7 @@ import smarthome.dao.EmployeeDao;
 import smarthome.model.Employee;
 import smarthome.service.EmployeeService;
 
-
+//<!-- 6 -->
 @Service("employeeService")
 @Transactional
 public class EmployeeServiceImpl implements EmployeeService{

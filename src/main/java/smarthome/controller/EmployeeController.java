@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import smarthome.model.Employee;
 import smarthome.service.EmployeeService;
-
+//<!-- 6 -->
 @Controller
 @RequestMapping(value="/employee")
 public class EmployeeController {

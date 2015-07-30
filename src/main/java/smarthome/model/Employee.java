@@ -14,7 +14,7 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
-
+//<!-- 6 -->为了测试hibernate写的实体类
 @Entity
 @Table(name="EMPLOYEE")
 public class Employee {

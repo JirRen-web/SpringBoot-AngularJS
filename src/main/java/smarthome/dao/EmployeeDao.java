@@ -4,7 +4,7 @@ import java.util.List;
 
 import smarthome.model.Employee;
 
-
+//<!-- 6 -->
 public interface EmployeeDao {
 
 	void saveEmployee(Employee employee);

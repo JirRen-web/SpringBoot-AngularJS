@@ -10,7 +10,7 @@ import smarthome.dao.AbstractDao;
 import smarthome.dao.EmployeeDao;
 import smarthome.model.Employee;
 
-
+//<!-- 6 -->
 @Repository("employeeDao")
 public class EmployeeDaoImpl extends AbstractDao implements EmployeeDao{
 
