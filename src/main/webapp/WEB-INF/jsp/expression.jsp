@@ -9,7 +9,7 @@
 <body>
 	<div ng-controller="ExpressionController">
 		<input ng-model="expr" type="text" placeholder="enter an expression"/>
-		<h2>{{parseValue}}</h2>
+		<h2>{{parsedValue}}</h2>
 	</div>
 	<script type="text/javascript" src="/js/controllers/controller-expression.js"></script>
 </body>
