@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -10,8 +10,8 @@
 	 5,打包成war的配置，部署到tomcat等服务器，需要的格式是war:http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-hotswapping 
 	 6,hibernate:支持spring-boot-starter-data-jpa 和spring-boot-starter-jdbc。还要注意在configuration包里面的HibernateConfiguration类的配置，使用了spring依赖注入配置
 	 -->
-	<groupId>org.springframework</groupId>
-	<artifactId>gs-serving-web-content</artifactId>
+	<groupId>steve</groupId>
+	<artifactId>SpringBoot-AngularJS</artifactId>
 	<version>0.1.0</version>
 	<!-- 1 -->
 	<parent>
