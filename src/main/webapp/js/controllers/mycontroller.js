@@ -7,4 +7,3 @@ function MyController($scope, $timeout) {
 	};
 	updateClock();
 };
-2
