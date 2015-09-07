@@ -1,4 +1,6 @@
-
+/**
+ * 问题是，newVal,oldVal和scope参数是怎么传进来的？
+ */
 var app=angular.module("app",[]);
 app.controller("ExpressionController", function($scope,$parse) {
 	$scope.$watch("expr", function(newVal,oldVal,scope) {

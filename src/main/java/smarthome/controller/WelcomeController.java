@@ -26,8 +26,24 @@ public class WelcomeController {
 		throw new RuntimeException("Foo");
 	}
 	
-	@RequestMapping("/html/{view}")
-	public String welcome(@PathVariable String view) {
+	@RequestMapping("/jsp/{view}")
+	public String getJsp(@PathVariable String view) {
 		return view;
+	}
+	/**
+	 * 映射到{path}文件夹的{view}的jsp
+	 * @param view
+	 * @param path
+	 * @return
+	 */
+	@RequestMapping("/jsp/{path}/{view}")
+	public String getJsp(@PathVariable String view,@PathVariable String path) {
+		
+		return "/"+path+"/"+view;
+	}
+	@RequestMapping("/html/{path}/{view}")
+	public String getHtml(@PathVariable String view,@PathVariable String path) {
+		
+		return "/"+path+"/"+view;
 	}
 }
