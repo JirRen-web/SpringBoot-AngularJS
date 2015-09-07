@@ -1,5 +1,5 @@
 /**
- * 添加所有的js控制器
+ * 在app模块中添加js控制器
  */
 var app = angular.module('app', []);
 app.controller('FirstController', function($scope) {
