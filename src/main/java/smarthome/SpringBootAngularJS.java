@@ -11,17 +11,17 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration()
 @ComponentScan
-public class Application extends SpringBootServletInitializer {
+public class SpringBootAngularJS extends SpringBootServletInitializer {
 	//<!--5-->
     @Override
 	protected SpringApplicationBuilder configure(
 			SpringApplicationBuilder builder) {
 		// TODO Auto-generated method stub
-		return builder.sources(Application.class);
+		return builder.sources(SpringBootAngularJS.class);
 	}
 
 	public static void main(String[] args) {
-    	SpringApplication app=new SpringApplication(Application.class);
+    	SpringApplication app=new SpringApplication(SpringBootAngularJS.class);
     	app.setShowBanner(false);
     	app.run(args);
     }

@@ -5,6 +5,7 @@
 		{{person.name}}
 	</div>
 	<div>
-		dengbolun
+		divs1
 	</div>
+	<div><a ng-href="{{myHref}}">I'm feeling lucky, when I load</a></div>
 </div>
